@@ -1,6 +1,7 @@
-n = input("digite um numero para conversao")
+salario = input("Digite seu salario")
 
 
-Metros = int (n) * 0.0254
+desconto = (int(salario) * 8) / 100
 
-print("A polegada de", n ,"é", Metros ,"Metros")
+
+print("o salario e ", desconto )
