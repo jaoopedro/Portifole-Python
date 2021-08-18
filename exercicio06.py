@@ -1,7 +1,7 @@
 salario = input("Digite seu salario")
 
 
-desconto = (int(salario) * 8) / 100
+desconto = (float(salario) * 8) / 100
+salariofinal = float(salario) - float(desconto)
 
-
-print("o salario e ", desconto )
+print("o salario é ", salariofinal )
