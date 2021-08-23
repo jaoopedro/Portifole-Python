@@ -1,9 +1,9 @@
 # exercicio 8 do estudo dirigido (Operadores)
 
-celsius = input("Digite o numero para a conversao -> ")
+fahrenheit =float(input("Digite a temperatura em fahrenheit: "))
 
 
-fahrenheit = float(celsius) * 9/ 5 + 32
+Celsius = 5/ 9 * (fahrenheit - 32)
 
 
-print("conversao",round(fahrenheit,2))
+print("conversao",round(Celsius,2))
