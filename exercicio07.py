@@ -1,3 +1,5 @@
+# exercicio 7 do estudo dirigido (Operadores)
+
 A = input("insira o valor de A")
 B = input("insira o valor B")
 C = input("insira o valor de C")

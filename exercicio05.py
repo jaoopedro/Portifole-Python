@@ -1,4 +1,4 @@
-# exercicio 3 do estudo dirigido (Operadores)
+# exercicio 5 do estudo dirigido (Operadores)
 
 nota1 = input("Digite sua do primeiro bimestre: ")
 nota2 = input("Digite sua do  egundo bimestre: ")
