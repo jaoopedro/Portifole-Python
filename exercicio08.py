@@ -1,3 +1,5 @@
+# exercicio 8 do estudo dirigido (Operadores)
+
 celsius = input("Digite o numero para a conversao -> ")
 
 
