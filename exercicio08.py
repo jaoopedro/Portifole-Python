@@ -6,4 +6,4 @@ celsius = input("Digite o numero para a conversao -> ")
 fahrenheit = float(celsius) * 9/ 5 + 32
 
 
-print("conversao",fahrenheit)
+print("conversao",round(fahrenheit,2))
