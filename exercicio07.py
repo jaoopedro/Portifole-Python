@@ -6,6 +6,7 @@ C = input("insira o valor de C: ")
 
 # Delta = float(B) * float(B) - 4 * float(A) * float(C)
 #               ou
+
 Delta = float(B) ** 2 - 4 * float(A) * float(C)
 
 print("o delta é",Delta)
