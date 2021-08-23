@@ -1,3 +1,5 @@
+# exercicio 1 do estudo dirigido (Operadores)
+
 n = input("digite um numero")
 
 
