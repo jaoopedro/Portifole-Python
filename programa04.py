@@ -1,5 +1,5 @@
-n = input("Digite um número: ")
+n = input("Digite um número: ") #entrada de dados
 
-dobro = int(n) * 2
+dobro = int(n) * 2 # Processamento
 
-print("O dobro de", n, "é", dobro)
+print("O dobro de", n, "é", dobro) # Saida de dados
