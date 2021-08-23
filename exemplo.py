@@ -1,11 +1,19 @@
-numero = input("Insira o numoro")
+print('Cadastro')
 
-numero2 = input("Insira outro numero")
+nome = input("nome")
+idade = input("idade")
+serie = input("Sua serie")
 
-soma = int(numero) + int(numero2)
-divisao = soma / 2
-diferença = int(numero) - int(numero2)
-metade = diferença / 2
+nota1 = input("1º")
+nota2 = input("2º")
+nota3 = input("3º")
 
-print("seu resultado é",divisao)
-print("e a metade é",metade)
+final = float(nota1) + float(nota2) + float(nota3)
+divisao = (final) / 3
+
+if divisao >= 6:
+    print("Aprovado")
+else:
+    print("Reprovado precisa tirar uma nota melhor")
+
+print("sua nota dos tres bimaestres",divisao)
