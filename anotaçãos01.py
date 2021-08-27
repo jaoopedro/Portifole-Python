@@ -1,6 +1,3 @@
-# () se refere a uma função
-
-# print função de saída
 
 # função sep = '' "serve para por um separador"
 # print('joao', 'pedro', sep = '-')
