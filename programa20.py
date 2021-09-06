@@ -11,3 +11,6 @@ print("palavra em letras MAIUSCULAS",palavra.upper())
 
 print("trocando a por X",palavra.replace("a","x"))
 #                  (quem vai ser substituido/ quem vai substitiuir)
+
+# uso do replace para remover espaços no meio
+print("sem espaço no meio",palavra.replace(" ",""))
