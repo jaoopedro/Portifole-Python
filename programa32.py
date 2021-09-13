@@ -6,6 +6,6 @@ nota3 = float(input("Digite sua nota: "))
 
 media = (nota1 + nota2 + nota3) / 3
 if media >= 6:
-    print("Aprovado",round(media))
+    print("Aprovado",round(media,2))
 else:
-   print("Reprovado",round(media))
+   print("Reprovado",round(media,2))
