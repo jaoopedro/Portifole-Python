@@ -8,3 +8,6 @@ if div == 0:
     print("O numero é Par")
 else:
     print("O numero é impar")
+
+print()
+print("* FIM DE PROGRAMA *")
