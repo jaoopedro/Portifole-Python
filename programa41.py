@@ -6,7 +6,7 @@ sexo = input("<M/F>: ")
 
 idade = date.today().year - data
 
-if idade >= 18 and sexo =='M':
-    print("Serviço militar Obrigatorio")
+if idade == 18 and sexo.upper() =='M':
+    print("Serviço militar Obrigatorio!!")
 else:
-    print("Insento do Serviço Militar")
+    print("Insento do Serviço Militar!")
