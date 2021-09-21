@@ -8,4 +8,4 @@ if sal >1100 and cpf =='N':
     print("cliente",nome,'teve o credito Aprovado')
     print("Boas Compras")
 else:
-    print("Credito",nome,"Não teve o credito Reprovado")
+    print(nome,"Não teve o credito Aprovado")
