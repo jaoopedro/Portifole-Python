@@ -4,7 +4,7 @@ import math
 n = float(input("Digite um número: "))
 
 
-if not(n < 0):
+if not(n < 0): #quando o not for falso ele é verdadeiro
     rq = math.sqrt(n)
     saida = 'A raiz quadrada {0} é {1}'
     print(saida.format(n,round(rq, 2)))
