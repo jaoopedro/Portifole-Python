@@ -1,6 +1,8 @@
+print("SEJA BEM VINDO AO JOGO!!")
+pontos = 0
 
 pergunta6 = input("Qual a resposta da número 6? ") # QUESTÃO 6
-pontos = 0
+
 
 if pergunta6 == "b":
     print("Você acertou!!")
