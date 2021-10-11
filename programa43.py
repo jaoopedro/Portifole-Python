@@ -6,6 +6,6 @@ n = float(input("Digite um número: "))
 rq = math.sqrt(n)
 
 saida = 'A raiz quadrada {0} é {1}'
-print(saida.format(n,rq))
+print(saida.format(n,round(rq, 2)))
 print()
 print("* FIM DE PROGRAMA *")
