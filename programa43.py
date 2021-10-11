@@ -3,9 +3,10 @@ import math
 
 n = float(input("Digite um número: "))
 
-rq = math.sqrt(n)
 
-saida = 'A raiz quadrada {0} é {1}'
-print(saida.format(n,round(rq, 2)))
-print()
-print("* FIM DE PROGRAMA *")
+if not(n < 0):
+    rq = math.sqrt(n)
+    saida = 'A raiz quadrada {0} é {1}'
+    print(saida.format(n,round(rq, 2)))
+else:
+    print("nao existe raiz quadrada de numeros negativos no conjuto de numeros reais")
