@@ -11,3 +11,5 @@ for i in range(1,4):
         print("Aluno Aprovado")
     else:
         print("Aluno Reprovado")
+
+print("*** FIM DE PROOGRAMA ***")
