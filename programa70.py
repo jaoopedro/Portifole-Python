@@ -18,7 +18,7 @@ while resposta.upper() == 'S':
 
     resposta = input('Deseja continuar? <S/N>: ')
 
-    while resposta.upper!="S" and resposta.upper() != "N":
+    while resposta.upper()!="S" and resposta.upper() != "N":
         print("RESPOSTA INVALIDA")
         resposta = input('Deseja continuar? <S/N>: ')
 
