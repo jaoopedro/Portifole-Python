@@ -16,7 +16,7 @@ def calcularVolume(R):
 
 print('***** INÍCIO DO PROGRAMA *****')
 
-raio = float(input('Digite o valor: '))
+raio = float(input('Digite o Raio: '))
 
 print('As operações são:')
 
